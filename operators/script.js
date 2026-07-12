@@ -115,8 +115,17 @@
 // console.log("Can the user access the dashboard: ", !access)
 
 //question no.5
-const isLoggedIn = true
-const isAdmin = false
-const isEditor = true
-console.log("Is the user logged in and is an admin: ", isLoggedIn && isAdmin)
-console.log("Is the user logged in or is an editor: ", isLoggedIn || isEditor)
+// const isLoggedIn = true
+// const isAdmin = false
+// const isEditor = true
+// console.log("Is the user logged in and is an admin: ", isLoggedIn && isAdmin)
+// console.log("Is the user logged in or is an editor: ", isLoggedIn || isEditor)
+
+
+const a = Number(prompt("Enter your age:"))
+if (a >= 18) {
+    console.log("You are eligible to vote")
+}
+else{
+    console.log("You are not eligible to vote")
+}
