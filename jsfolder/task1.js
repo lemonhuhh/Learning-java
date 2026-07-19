@@ -77,3 +77,57 @@ function printTable(){
     }
 }
 // printTable()
+
+
+
+
+
+
+
+
+
+
+
+
+const checknum=()=>{
+    let num = Number(prompt("Enter the number:"))
+    if(num < 0 ){
+        console.log(`${num} is negative.`)
+    }
+    else if (num > 0){
+        console.log(`${num} is positive.`)
+    }
+    else{
+        console.log(`Entered num is zero.`)
+    }
+}
+// checknum()
+
+
+
+
+
+
+
+
+
+function isleapyear(){
+    let a = Number(prompt("Enter Year:"))
+    if(a % 4 === 0 && a % 100 !== 0 ){
+        console.log("It is a leap year.")
+    }
+    else if(a % 400 == 0){
+        console.log(`It is a leap year.`)
+    }
+    else{
+        console.log("It is not a leap year.")
+    }
+}
+// isleapyear()
+
+
+
+
+
+
+
