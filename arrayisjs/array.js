@@ -243,20 +243,20 @@
 
 
 
-console.log("================================================")
+// console.log("================================================")
 
 
 
 
 
-function listofproduct(){
-    let productname = ["Laptop", "Smartphone", "Keyboard", "Mouse", "Pen"]
-    console.log(productname)
-    productname.pop()
-    console.log("The updated list is:")
-    console.log(productname)
-}
-listofproduct()
+// function listofproduct(){
+//     let productname = ["Laptop", "Smartphone", "Keyboard", "Mouse", "Pen"]
+//     console.log(productname)
+//     productname.pop()
+//     console.log("The updated list is:")
+//     console.log(productname)
+// }
+// listofproduct()
 
 
 
@@ -264,20 +264,20 @@ listofproduct()
 
 
 
-console.log("================================================")
+// console.log("================================================")
 
 
 
 
 
-function listofmountain(){
-    let mountainname = ["Manaslu", "Makalu", "Lhotse", "Mount Everest", "K2"]
-    console.log(mountainname)
-    mountainname.pop()
-    console.log("The updated list is:")
-    console.log(mountainname)
-}
-listofmountain()
+// function listofmountain(){
+//     let mountainname = ["Manaslu", "Makalu", "Lhotse", "Mount Everest", "K2"]
+//     console.log(mountainname)
+//     mountainname.pop()
+//     console.log("The updated list is:")
+//     console.log(mountainname)
+// }
+// listofmountain()
 
 
 
